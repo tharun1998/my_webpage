@@ -17,4 +17,21 @@ p {
     color: #555; /* Slightly lighter gray for paragraph text */
 }
 
+.btn {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 15px 32px; /* Top/bottom and left/right padding */
+    text-align: center; /* Center align text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Align buttons inline */
+    font-size: 16px; /* Font size */
+    margin: 10px 2px; /* Margin around buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+}
 
+.btn:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
